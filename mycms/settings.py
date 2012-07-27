@@ -129,5 +129,8 @@ INSTALLED_APPS = (
     'cms.plugins.snippet',
     'cms.plugins.googlemap',
     'sekizai',
-    'gunicorn',
+    'gunicorn'
 )
+
+import dj_database_url
+DATABASES = {'default': dj_database_url.config()}
