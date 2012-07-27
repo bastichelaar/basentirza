@@ -1,5 +1,5 @@
 #!/bin/bash
-python basentirza/manage.py syncdb --noinput
-python basentirza/manage.py migrate --noinput
+python manage.py syncdb --noinput
+python manage.py migrate --noinput
 python basentirza/createsite.py
 python basentirza/createadmin.py
