@@ -1,5 +1,5 @@
 #!/bin/bash
-python mycms/manage.py syncdb --noinput
-python mycms/manage.py migrate --noinput
-python mycms/createsite.py
-python mycms/createadmin.py
+python basentirza/manage.py syncdb --noinput
+python basentirza/manage.py migrate --noinput
+python basentirza/createsite.py
+python basentirza/createadmin.py
