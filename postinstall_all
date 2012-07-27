@@ -1,0 +1,2 @@
+#!/bin/bash
+python mycms/manage.py collectstatic --noinput -v 0
