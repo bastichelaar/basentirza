@@ -5,3 +5,4 @@ south
 psycopg2
 gunicorn
 dj-database-url
+cmsplugin_gallery
