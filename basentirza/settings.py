@@ -154,7 +154,8 @@ INSTALLED_APPS = (
     'cms.plugins.text',
     'cms.plugins.video',
     'cms.plugins.twitter',
-    'cmsplugin_gallery'
+    'cmsplugin_gallery',
+    'easy_thumbnails'
 )
 
 # A sample logging configuration. The only tangible logging
